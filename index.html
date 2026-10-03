@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drag & Drop Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Drag & Drop Image Gallery</h1>
+    <p class="intro">Drag one of the small images on the left to see it appear in the large box.</p>
+
+    <div class="gallery">
+      <!-- Left side: 5 small draggable images -->
+      <div class="small-images">
+        <h2>Choose an image</h2>
+        <div class="image-strip">
+          <img class="small-image" src="2f945583f8791c3364ed8949594459fd.jpg" draggable="true" alt="Image 1">
+          <img class="small-image" src="3e6bf3a917a8fb9d7273274bc9c3f1c3.jpg" draggable="true" alt="Image 2">
+          <img class="small-image" src="7500fcb3dbe4fdf77b77ed6318dcf984.jpg" draggable="true" alt="Image 3">
+          <img class="small-image" src="dcu-guy-gardner-comics-style-v0-ggwal4qmb9pg1.jpg" draggable="true" alt="Image 4">
+          <img class="small-image" src="dcusupe.png" draggable="true" alt="Image 5">
+        </div>
+      </div>
+
+      <!-- Right side: large display box -->
+      <div class="display-area">
+        <h2>Preview</h2>
+        <div id="largeBox" class="large-box">
+          <p>Drag an image here →</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="hint">Tip: You can drag the same image multiple times, or drag different images one after another.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
